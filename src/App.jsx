@@ -59,7 +59,7 @@ function App() {
     <>
       <div className="App min-h-dvh w-full bg-slate-900">
         <Header onChange={({ target }) => search(target.value)} />
-        <div className="Movie-container w-full flex justify-between gap-y-3 px-5 flex-wrap">
+        <div className="Movie-container w-full flex justify-between max-[522px]:justify-center items-center text-center gap-y-3 px-5 flex-wrap">
           <PopularMovieList />
         </div>
       </div>
